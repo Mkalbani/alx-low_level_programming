@@ -13,13 +13,12 @@
 int main(void)
 {
 	char ch = 'a';
-
-	putchar("alphabet in lowercase:\n")
 	while (ch <= 'z')
 	{
-		putchar("%c", ch);
+		putchar(ch);
 		ch++;
 	}
 	printf("\n");
+
 return (0);
 }
