@@ -6,6 +6,7 @@
  * main - Entry point
  * Description: This program will print
  * the alphabet in lowercase
+ * and then in upper case
  *
  * Return: 0
  */
@@ -16,7 +17,7 @@ int main(void)
 
 	alphabet = 'a';
 	ALPHABET = 'A';
-	while (alphabet > 'z')
+	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
 		alphabet++;
