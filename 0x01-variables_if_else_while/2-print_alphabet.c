@@ -12,7 +12,7 @@
 
 int main(void)
 {
-char ch = 'a';
+	char ch = 'a';
 
 	putchar("alphabet in lowercase:\n")
 	while (ch <= 'z')
@@ -20,5 +20,6 @@ char ch = 'a';
 		putchar("%c", ch);
 		ch++;
 	}
+	printf("\n");
 return (0);
 }
