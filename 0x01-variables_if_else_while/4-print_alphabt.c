@@ -5,7 +5,7 @@
  * description: program prints the alphabet in lowercase
  * without e and q
  *
- * result: 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
