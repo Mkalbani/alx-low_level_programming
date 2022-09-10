@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * Description: This program will all single
+ * Description: This program will print all single
  * digit numbers of base 10 starting from 0
  *
  * Return: 0
