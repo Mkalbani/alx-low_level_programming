@@ -21,21 +21,21 @@ int main(void)
 				putchar(n);
 				putchar(b);
 			}
-			if (n == )
+			if (n == b)
 			{
 				continue;
-			]
+			}
 			if (n == '8' && b == '9')
 			{
 				break;
 			}
 			else
 			{
-			putchar(',');
-			putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
-		a++
+		a++;
 	}
 	putchar('\n');
 	return (0);
