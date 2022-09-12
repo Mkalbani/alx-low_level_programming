@@ -20,7 +20,7 @@ int main(void)
 				putchar(b);
 			}
 			if (i == '8' && b == '9')
-				putchar('\n')
+				putchar('\n');
 			else
 			{
 				putchar(',');
