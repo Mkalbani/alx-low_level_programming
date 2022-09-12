@@ -14,26 +14,19 @@ int main(void)
 	{
 		for (b = a; b <= '9'; b++)
 		{
-			if (i != b)
-			{	
+			if (!(i > b || i == b))
+			{
 				putchar(i);
 				putchar(b);
 			}
-			if (i == b)
-			{
-				continue;
-			}
 			if (i == '8' && b == '9')
-			{
-				break;
-			}
+				putchar('\n')
 			else
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
-		a++;
 	}
 	putchar('\n');
 	return (0);
