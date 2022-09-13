@@ -8,18 +8,18 @@
 
 int main(void)
 {
-	int i, a, b;
+	int a, b;
 
-	for (i = '0'; i <= '9'; i++)
+	for (a = '0'; a <= '9'; a++)
 	{
 		for (b = a; b <= '9'; b++)
 		{
-			if (!(i > b || i == b))
+			if (a != b)
 			{
-				putchar(i);
+				putchar(a);
 				putchar(b);
 			}
-			if (i == '8' && b == '9')
+			if (a == '8' && b == '9')
 				putchar('\n');
 			else
 			{
