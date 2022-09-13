@@ -2,9 +2,8 @@
 
 /**
  * _isalpha - function to check lowercase character
- * @c - is the int use for argument of function
- *
- * Return: 1 otherwise returns 0
+ * @c:character to check if it islowercase.
+ * Return:1-if lowercase/uppercase,0-if not.
  */
 
 int _isalpha(int c)
