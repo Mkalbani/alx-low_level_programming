@@ -20,7 +20,9 @@ int main(void)
 				putchar(b);
 			}
 			if (a == '8' && b == '9')
-				putchar('\n');
+			{
+				break;
+			}
 			else
 			{
 				putchar(',');
@@ -28,5 +30,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
