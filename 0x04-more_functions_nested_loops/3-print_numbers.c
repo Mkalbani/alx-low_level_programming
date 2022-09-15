@@ -12,8 +12,7 @@ void print_numbers(void)
 	
 	for (a = '0'; a < '10'; a++)
 	{
-		if (ch != 50 && ch != 52)
-			_putchar(a);
+		_putchar(a);
 	}
 	_putchar('\n');
 }
