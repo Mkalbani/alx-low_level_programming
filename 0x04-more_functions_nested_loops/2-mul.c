@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _isdigit - check the code.
+ * mul - check the code.
  * @a: multiplies integers
  * @b: mulitplies integers
  * Return: Always 0.
