@@ -11,7 +11,7 @@ void puts_half(char *str)
 	int length = 0, i;
 
 
-	for (length = 0; length >= 0; i++)
+	for (length = 0; length >= 0; length++)
 	{
 		if (str[length] == '\0')
 			break;
