@@ -5,14 +5,12 @@
  * _strcat - check code
  * @dest: appends
  * @src: appends
- * Return: 0
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int i;
-
-	int j = strlen(src);
+	int i = 0, j = 0;
 
 	for (i = 0; src[i] != '\n'; i++)
 	{
@@ -20,5 +18,5 @@ char *_strcat(char *dest, char *src)
 	}
 	dest[i + j] = '\0';
 
-	return (0);
+	return (dest);
 }
