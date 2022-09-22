@@ -1,11 +1,12 @@
 #include "main.h"
-/**
- * cap_string - capitalizes all words of a string
- * @s: string.
- * Return: the pointer to dest.
- */
 
-char *cap_string(char *s)
+/**
+ * *cap_string - capitalizes all words of a string.
+ *
+ * @str: string.
+ * Return: string.
+ */
+char *cap_string(char *str)
 {
 	int i;
 
@@ -30,7 +31,7 @@ char *cap_string(char *s)
 		}
 		else
 		{
-			if (str[i] >= 'A' && str[i] <= 'Z')
+			if (str[i] >= 65 && str[i] <= 90)
 			{
 				str[i] = str[i] + 32;
 			}
