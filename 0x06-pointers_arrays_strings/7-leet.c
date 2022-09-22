@@ -4,7 +4,7 @@
  * leet - check the code
  *
  * @s: string.
- * Return: string.
+ * Return: s
  */
 char *leet(char *s)
 {
@@ -12,7 +12,7 @@ char *leet(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[i] == 'a' || s[i] == 'A'
+		if (s[i] == 'a' || s[i] == 'A')
 			s[i] = '4';
 		else if (s[i] == 'e' || s[i] == 'E')
 			s[i] = '3';
