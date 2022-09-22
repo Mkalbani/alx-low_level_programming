@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * leet - check the code
+ * leet - check the code for Holberton School students.
  *
- * @s: string.
- * Return: s
+ * @str: string.
+ * Return: string.
  */
-char *leet(char *s)
+char *leet(char *str)
 {
 	int i;
 
