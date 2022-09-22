@@ -5,9 +5,9 @@
  * Return: the pointer to dest.
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
-int i;
+	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
