@@ -9,9 +9,11 @@
 
 char *_strchr(char *s, char c)
 {
-	if (c != NULL)
-		_putchar(c)
+	for (; c != '\0'; c++)
+
+		if (s == c)
+			return (s);
 	else
 
-	return (NULL);
+	return (0);
 }
