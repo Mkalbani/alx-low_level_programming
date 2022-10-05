@@ -22,8 +22,9 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 
 	for (i = 0; i < size; i++)
+	{
 		str[i] = c;
-	
-	if (str[i] == '\0')
+	}
+	str[i] = '\0';
 	return (str);
 }
