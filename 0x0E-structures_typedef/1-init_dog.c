@@ -3,9 +3,9 @@
 /**
 * init_dog -function initializes variable
 * @d: pointer to struct
-* @name: member 1
-* @age: member 2
-* @owner: member 3
+* @name: name
+* @age: age
+* @owner: owner
 * Return: void
 */
 
