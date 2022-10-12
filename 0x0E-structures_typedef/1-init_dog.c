@@ -2,7 +2,6 @@
 
 /**
 * init_dog -function initializes variable
-* struct dog - new structure
 * @d: pointer to struct
 * @name: member 1
 * @age: member 2
