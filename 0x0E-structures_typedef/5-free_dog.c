@@ -1,5 +1,4 @@
 #include "dog.h"
-#include <stdlib>
 
 /**
  * free_dog - frees a memory block of type dog_t
