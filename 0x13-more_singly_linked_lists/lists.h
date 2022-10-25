@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
+void free_listint2(listint_t **head);
+
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
